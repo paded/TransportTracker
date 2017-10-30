@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        // Check GPS is enabled
+        // Check GPS is enabled ****
         LocationManager lm = (LocationManager) getSystemService(LOCATION_SERVICE);
         if (!lm.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
             Toast.makeText(this, "Please enable location services", Toast.LENGTH_SHORT).show();

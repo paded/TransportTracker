@@ -55,7 +55,7 @@ public class TrackerService extends Service {
                 .setOngoing(true)
                 .setContentIntent(broadcastIntent)
                 .setSmallIcon(R.drawable.ic_tracker);
-        startForeground(1, builder.build());
+                 startForeground(1, builder.build());
     }
 
     protected BroadcastReceiver stopReceiver = new BroadcastReceiver() {
