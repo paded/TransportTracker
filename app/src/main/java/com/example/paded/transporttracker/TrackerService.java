@@ -94,6 +94,7 @@ public class TrackerService extends Service {
                         Log.d(TAG, "location update " + location);
                         ref.setValue(location);
                     }
+
                 }
             }, null);
         }
